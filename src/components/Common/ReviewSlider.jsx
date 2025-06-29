@@ -104,4 +104,4 @@ function ReviewSlider() {
   )
 }
 
-export default ReviewSlider;
+export default ReviewSlider
