@@ -11,6 +11,7 @@ const Quote = () => {
       </span>
       , and community to create an 
       <span className='text-brown-500'>
+        {" "}
       unparalleled educational experience.
       </span>
     </div>

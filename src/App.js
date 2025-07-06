@@ -7,6 +7,7 @@ import OpenRoute from "./components/core/Auth/OpenRoute"
 import Login from "./pages/Login"
 import Signup from "./pages/Signup"
 import About from "./pages/About"
+import Catalog from "./pages/Catalog"
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
     <Navbar/>
     <Routes>
       <Route path="/" element={<Home/>} />
+      <Route path="/about" element={<About/>}/>
+      <Route path="catalog/:catalogName" element={<Catalog/>}/>
       <Route
           path="signup"
           element={

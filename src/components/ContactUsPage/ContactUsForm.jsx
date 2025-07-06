@@ -128,6 +128,8 @@ const ContactUsForm = () => {
               })}
             </select>
           </div>
+          
+          {/* enter your number section */}
           <div className="flex w-[calc(100%-90px)] flex-col gap-2">
             <input
               type="number"
